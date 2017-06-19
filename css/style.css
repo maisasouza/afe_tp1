@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    padding-top: 70px;
+    border: 1px solid green;
+}
+
+.sections-destaque {
+    display: flex;
+}
+
+.sections-destaque .news {
+    margin: 15px 15px 15px 35px;
+}
+
+.sections-destaque header {
+    margin-bottom: 30px;
+}
+
+.section-border {
+    border-right: 1px groove gray;
+}
+
+.sections-destaque section {
+    display: inline-block;
+}
+
+section header {
+    text-align: center;
+}
+
+.footer {
+    background-color: lightblue;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+}
