@@ -1,9 +1,9 @@
-* {
+/** {
     margin: 0;
     padding: 0;
     list-style: none;
     vertical-align: baseline;
-}
+}*/
 
 html {
     height: 100%;
@@ -12,11 +12,24 @@ html {
 body {
     height: 100%;
     padding-top: 70px;
-    border: 1px solid green;
+}
+
+#conteudo {
+    min-height: calc(100% - 90px);
+    /** Tamanho do footer **/
+}
+
+#conteudo p {
+    text-indent: 50px;
+}
+
+#formAlerta {
+    margin-top: 30px;
 }
 
 .sections-destaque {
     display: flex;
+    margin: 10px 0 10px 0;
 }
 
 .sections-destaque .news {
@@ -40,11 +53,30 @@ section header {
 }
 
 .footer {
-    background-color: lightblue;
-    height: 100px;
+    background-color: #e7e7e7;
+    height: 90px;
     width: 100%;
     margin: 0;
     padding: 0;
-    position: absolute;
-    bottom: 0;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: bold;
+    color: gray;
+}
+
+.footer .pright {
+    margin: 0 15px 0 0;
+}
+
+.footer .pheader {
+    margin: 12px 0px 0px 20px;
+}
+
+.coluna1 {
+    height: 100%;
+}
+
+.coluna2 {
+    background-color: lightseagreen;
+    height: 100%;
 }

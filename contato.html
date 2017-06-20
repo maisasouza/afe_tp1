@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js">
+    </script>
+    <title>Blog Cultura</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand"> Blog cultura </a>
+            </div>
+            <div class="collapse navbar-collapse" id="menuLinks">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html"> Home </a></li>
+                    <li>
+                        <a href="noticias.html"> Notícias </a></li>
+                    <li>
+                        <a href="contato.html"> Contato </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="conteudo" class="container">
+
+        <div class="row">
+            <h1 class="text-center">Contato</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus, nunc in condimentum
+                ornare, felis justo accumsan sapien, ac maximus elit urna eget massa.
+                Vestibulum id tincidunt lacus. Aenean dignissim rutrum mi quis hendrerit.
+                Praesent sit amet nulla tortor. Mauris at pulvinar ante. Sed nec.</p>
+
+            <form id="contato-formulario">
+                <div class="form-group">
+                    <label for="nome"> Nome: </label>
+                    <input id="nome" type="text" class="form-control" placeholder="Nome">
+                </div>
+                <div class="form-group">
+                    <label for="email"> Email: </label>
+                    <input id="email" type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="mensagem"> Mensagem: </label>
+                    <textarea id="mensagem" placeholder="Escreva sua mensagem aqui..." class="form-control"
+                        rows="5" cols="80"></textarea>
+                </div>
+            </form>
+
+            <button class="btn btn-primary" onclick="document.getElementById('formAlerta').setAttribute('style', 'visibility: visible')"> Enviar </button>
+
+            <div id="formAlerta" class="alert alert-success" role="alert" style="visibility: hidden">
+                <strong> Sucesso !</strong> Sua mensagem foi enviada com sucesso
+                ! Agora é só aguardar ...
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row footer">
+        <p class="pheader"> <a href="#"> RSS - Assine nosso feed </a> </p>
+        <p class="text-right pright"> contato: teste@teste.com <br/> Desenvolvido por maisa horta </p>
+        <p class="text-center">Blog atualizado em: 20/06/2017 </p>
+    </div>
+
+
+</body>
+
+</html>
