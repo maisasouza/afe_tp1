@@ -33,9 +33,9 @@
         </div>
     </nav>
 
-    <div id="conteudo" class="container-fluid row">
+    <div id="conteudo" class="container-fluid row fixed-page-height">
 
-        <aside class="col-sm-3 coluna1">
+        <aside class="col-sm-2 coluna1">
             <header>
                 <h3> Repositório dos Posts </h3>
             </header>
@@ -74,8 +74,114 @@
                 <li>2015</li>
             </ul>
         </aside>
-        <div class="col-sm-9 coluna2">
-            col 2
+        <div id="style-1" class="col-sm-8 coluna2">
+
+            <h1 class="text-center"> Posts </h1>
+
+            <form action="">
+                <div class="input-group">
+                    <input type="text" id="busca" class="form-control" placeholder="O que você está procurando...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-success" type="button"> Encontrar !</button>
+                    </span>
+                </div>
+            </form>
+
+            <article id="article-main">
+                <header>
+                    <h2> Noticia Lorem Ipsum </h2>
+                    <p class="publication-paragraph"> Publicado em: <time> 10/03/2017 </time> </p>
+                </header>
+
+                <div class="article-body">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus varius neque, at egestas urna lacinia in. Etiam eget dignissim
+                        augue. Mauris eget nibh et elit luctus auctor. Pellentesque efficitur libero sed tortor ultricies, hendrerit scelerisque nunc lobortis.
+                        Fusce lobortis euismod augue, non mollis nisl pellentesque at. Quisque quis ex laoreet, tincidunt mi eget, maximus turpis. Proin
+                        eget mi sit amet dui interdum condimentum a a odio. Morbi pulvinar fringilla quam, eget tempus eros. Donec lacinia erat neque,
+                        ac suscipit elit feugiat non. </p>
+
+                    <p> Cras ultrices tempor ex dapibus tempus. Praesent massa enim, imperdiet eget libero a, sollicitudin finibus elit. Integer at luctus
+                        diam, sit amet pretium nunc. Ut elit mi, feugiat eget augue quis, lacinia rhoncus turpis. Sed vitae nisi nisl. In interdum est
+                        a ultricies luctus. Vestibulum eget dui vitae ligula pulvinar dapibus id non libero. Morbi pharetra augue lacinia dapibus accumsan.
+                        Cras auctor faucibus ex non pellentesque. Sed consectetur, ante vitae accumsan molestie, arcu magna eleifend orci, eu facilisis
+                        massa nisi sit amet justo. Praesent arcu ex, accumsan non tortor sit amet, cursus varius leo. Nulla convallis molestie placerat.
+                        Morbi ante orci, fringilla nec neque id, mattis ullamcorper dui. Donec aliquam neque velit, vitae tempus quam auctor quis. Nulla
+                        eleifend metus in dolor rutrum vestibulum. </p>
+
+                    <p> Quisque efficitur viverra ligula quis vehicula. Quisque semper cursus pulvinar. Fusce et sapien malesuada, blandit erat ac, lobortis
+                        enim. Nulla vitae vehicula nulla, vel maximus est. Praesent leo mi, placerat non pulvinar nec, convallis non neque. Vivamus faucibus,
+                        tellus a facilisis pellentesque, metus odio cursus enim, non venenatis libero massa et orci. Etiam iaculis venenatis porttitor.
+                        In non sodales massa. </p>
+
+                    <p> Duis nec mi maximus, consequat tortor vel, auctor enim. Aliquam a volutpat felis. Donec nunc velit, placerat malesuada vestibulum ac,
+                        pellentesque sit amet ligula. Duis eu mollis arcu. Ut ac elit tristique velit semper consequat eu non dui. Curabitur eget tortor
+                        et ante ullamcorper fermentum. Sed feugiat malesuada diam eu tristique. Maecenas sagittis eros eu odio condimentum cursus. Vestibulum
+                        fermentum urna non libero mattis tempus iaculis et urna. Duis tempor erat vel elit sollicitudin tempus. Mauris pretium maximus
+                        elementum. </p>
+
+                    <p> Nullam blandit, nisl vel faucibus vestibulum, dolor felis molestie nisi, quis interdum nunc tortor non quam. Nunc nec elit sed dui
+                        iaculis pellentesque vel in arcu. Fusce interdum sit amet tellus id malesuada. Maecenas vulputate nibh vel quam sodales, non rhoncus
+                        sem placerat. Proin a sodales metus. Aenean quis lorem sit amet augue consectetur sagittis eget quis est. Curabitur quis ligula
+                        sit amet neque vehicula tristique ac id ex. Sed congue dignissim massa eget bibendum. Nullam mauris tortor, tempor id consectetur
+                        dignissim, vestibulum ac dui. In eu placerat dui. Duis vitae libero sit amet nulla pellentesque commodo quis consequat ante. Quisque
+                        viverra sit amet massa non finibus. Maecenas dapibus felis enim, sed cursus mi lacinia vel. </p>
+                </div>
+
+            </article>
+
+            <section id=comment-list>
+
+                <h3> Comentários </h3>
+
+                <article class="comment-user">
+                    <div class="comment-body">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id efficitur arcu. Nullam a felis eget velit iaculis maximus. Donec
+                            id ullamcorper felis. Etiam aliquet vitae velit non faucibus. Morbi quis rutrum lorem. Maecenas vestibulum scelerisque hendrerit.
+                            Aliquam molestie efficitur est eget gravida. Sed et leo sapien. </p>
+                    </div>
+                    <footer>
+                        <p> - author name </p>
+                    </footer>
+                </article>
+
+                <article class="comment-user">
+                    <div class="comment-body">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id efficitur arcu. Nullam a felis eget velit iaculis maximus. Donec
+                            id ullamcorper felis. Etiam aliquet vitae velit non faucibus. Morbi quis rutrum lorem. Maecenas vestibulum scelerisque hendrerit.
+                            Aliquam molestie efficitur est eget gravida. Sed et leo sapien. </p>
+                    </div>
+                    <footer>
+                        <p> - author name </p>
+                    </footer>
+                </article>
+
+                <article class="comment-user">
+                    <div class="comment-body">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id efficitur arcu. Nullam a felis eget velit iaculis maximus. Donec
+                            id ullamcorper felis. Etiam aliquet vitae velit non faucibus. Morbi quis rutrum lorem. Maecenas vestibulum scelerisque hendrerit.
+                            Aliquam molestie efficitur est eget gravida. Sed et leo sapien. </p>
+                    </div>
+                    <footer>
+                        <p> - author name </p>
+                    </footer>
+                </article>
+
+                <form action="">
+                    <div class="input-group">
+                        <label for="nome" class="input-group-addon"> Nome: </label>
+                        <input type="text" id="nome" class="form-control" placeholder="Seu nome">
+                    </div>
+                    <br/>
+                    <div class="form-group">
+                        <textarea id="comment-input" cols="30" rows="3" class="form-control" placeholder="Comente aqui..."></textarea>
+                    </div>
+                    <button class="btn btn-primary"> Comentar </button>
+                </form>
+            </section>
+
+
+        </div>
+        <div class="col-sm-2">
         </div>
     </div>
 
