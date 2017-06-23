@@ -7,7 +7,7 @@ body {
     padding-top: 70px;
 }
 
-#conteudo {
+#content {
     /** Tamanho do footer **/
     min-height: calc(100% - 90px);
 }
@@ -16,7 +16,7 @@ body {
     height: calc(100% - 90px);
 }
 
-#conteudo p {
+#content p {
     text-indent: 50px;
 }
 
@@ -29,30 +29,22 @@ body {
     margin: 10px 0 10px 0;
 }
 
-.sections-destaque .news {
-    margin: 15px 15px 15px 35px;
-}
-
 .sections-destaque header {
     margin-bottom: 30px;
+}
+
+.sections-destaque .news {
+    margin: 15px 15px 15px 35px;
 }
 
 .section-border {
     border-right: 1px groove gray;
 }
 
-.sections-destaque section {
-    display: inline-block;
-}
-
-section header {
-    text-align: center;
-}
-
 .footer {
     background-color: #e7e7e7;
-    height: 90px;
     width: 100%;
+    height: 90px;
     margin: 0;
     padding: 0;
     font-style: italic;
@@ -61,19 +53,26 @@ section header {
     color: gray;
 }
 
-.footer .pright {
-    margin: 0 15px 0 0;
+.footer p {
+    padding: 0px 15px 0px 20px;
+    margin: 0;
 }
 
-.footer .pheader {
-    margin: 12px 0px 0px 20px;
+.footer p.footer-header {
+    padding-top: 12px;
 }
 
-.coluna2 {
-    height: calc(100% - 115px);
+.news-content {
+    height: calc(100% - 110px);
     overflow-y: scroll;
     margin-top: 20px;
     padding-right: 30px;
+}
+
+.comment-author {
+    font-style: italic;
+    color: gray;
+    font-weight: bold;
 }
 
 .article-body {
@@ -88,18 +87,18 @@ article .publication-paragraph {
     color: grey;
 }
 
-.scrollbarStyle::-webkit-scrollbar-track {
+.scrollbar::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     background-color: #F5F5F5;
 }
 
-.scrollbarStyle::-webkit-scrollbar {
+.scrollbar::-webkit-scrollbar {
     width: 12px;
     background-color: #F5F5F5;
 }
 
-.scrollbarStyle::-webkit-scrollbar-thumb {
+.scrollbar::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: #555;

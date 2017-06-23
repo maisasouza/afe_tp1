@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="menuLinks">
                 <ul class="nav navbar-nav">
                     <li><a href="index.html"> Home </a></li>
-                    <li>
+                    <li class="active">
                         <a href="noticias.html"> Notícias </a></li>
                     <li>
                         <a href="contato.html"> Contato </a></li>
@@ -33,9 +33,9 @@
         </div>
     </nav>
 
-    <div id="conteudo" class="container-fluid row fixed-page-height">
+    <div id="content" class="container-fluid row fixed-page-height">
 
-        <aside class="col-sm-2 coluna1">
+        <aside class="col-xs-2 news-list">
             <header>
                 <h3> Repositório dos Posts </h3>
             </header>
@@ -74,13 +74,13 @@
                 <li>2015</li>
             </ul>
         </aside>
-        <div id="style-1" class="col-sm-8 coluna2">
+        <div class="col-xs-8 scrollbar news-content">
 
             <h1 class="text-center"> Posts </h1>
 
             <form action="">
                 <div class="input-group">
-                    <input type="text" id="busca" class="form-control" placeholder="O que você está procurando...">
+                    <input type="text" id="search" class="form-control" placeholder="O que você está procurando...">
                     <span class="input-group-btn">
                         <button class="btn btn-success" type="button"> Encontrar !</button>
                     </span>
@@ -133,13 +133,24 @@
 
                 <h3> Comentários </h3>
 
-                <article class="comment-user">
+                <article class="comment">
                     <div class="comment-body">
                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id efficitur arcu. Nullam a felis eget velit iaculis maximus. Donec
                             id ullamcorper felis. Etiam aliquet vitae velit non faucibus. Morbi quis rutrum lorem. Maecenas vestibulum scelerisque hendrerit.
                             Aliquam molestie efficitur est eget gravida. Sed et leo sapien. </p>
                     </div>
-                    <footer>
+                    <footer class="comment-author text-right">
+                        <p> - author name </p>
+                    </footer>
+                </article>
+
+                <article class="comment">
+                    <div class="comment-body">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id efficitur arcu. Nullam a felis eget velit iaculis maximus. Donec
+                            id ullamcorper felis. Etiam aliquet vitae velit non faucibus. Morbi quis rutrum lorem. Maecenas vestibulum scelerisque hendrerit.
+                            Aliquam molestie efficitur est eget gravida. Sed et leo sapien. </p>
+                    </div>
+                    <footer class="comment-author text-right">
                         <p> - author name </p>
                     </footer>
                 </article>
@@ -150,18 +161,7 @@
                             id ullamcorper felis. Etiam aliquet vitae velit non faucibus. Morbi quis rutrum lorem. Maecenas vestibulum scelerisque hendrerit.
                             Aliquam molestie efficitur est eget gravida. Sed et leo sapien. </p>
                     </div>
-                    <footer>
-                        <p> - author name </p>
-                    </footer>
-                </article>
-
-                <article class="comment-user">
-                    <div class="comment-body">
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id efficitur arcu. Nullam a felis eget velit iaculis maximus. Donec
-                            id ullamcorper felis. Etiam aliquet vitae velit non faucibus. Morbi quis rutrum lorem. Maecenas vestibulum scelerisque hendrerit.
-                            Aliquam molestie efficitur est eget gravida. Sed et leo sapien. </p>
-                    </div>
-                    <footer>
+                    <footer class="comment-author text-right">
                         <p> - author name </p>
                     </footer>
                 </article>
@@ -178,16 +178,16 @@
                     <button class="btn btn-primary"> Comentar </button>
                 </form>
             </section>
+        </div>
+
+        <div class="col-xs-2"></div>
 
 
-        </div>
-        <div class="col-sm-2">
-        </div>
     </div>
 
     <div class="row footer">
-        <p class="pheader"> <a href="#"> RSS - Assine nosso feed </a> </p>
-        <p class="text-right pright"> contato: teste@teste.com <br/> Desenvolvido por maisa horta </p>
+        <p class="footer-header"> <a href="#"> RSS - Assine nosso feed </a> </p>
+        <p class="text-right"> contato: teste@teste.com <br/> Desenvolvido por maisa horta </p>
         <p class="text-center">Blog atualizado em: 20/06/2017 </p>
     </div>
 

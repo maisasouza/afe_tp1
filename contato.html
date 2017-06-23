@@ -26,22 +26,21 @@
                     <li><a href="index.html"> Home </a></li>
                     <li>
                         <a href="noticias.html"> Notícias </a></li>
-                    <li>
+                    <li class="active">
                         <a href="contato.html"> Contato </a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div id="conteudo" class="container">
+    <div id="content" class="container">
 
         <div class="row">
             <h1 class="text-center">Contato</h1>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus, nunc in condimentum
-                ornare, felis justo accumsan sapien, ac maximus elit urna eget massa.
-                Vestibulum id tincidunt lacus. Aenean dignissim rutrum mi quis hendrerit.
-                Praesent sit amet nulla tortor. Mauris at pulvinar ante. Sed nec.</p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus, nunc in condimentum ornare, felis justo accumsan sapien, ac maximus elit urna eget
+                massa. Vestibulum id tincidunt lacus. Aenean dignissim rutrum mi quis hendrerit. Praesent sit amet nulla tortor. Mauris at pulvinar ante.
+                Sed nec.</p>
 
             <form id="contato-formulario">
                 <div class="form-group">
@@ -54,16 +53,14 @@
                 </div>
                 <div class="form-group">
                     <label for="mensagem"> Mensagem: </label>
-                    <textarea id="mensagem" placeholder="Escreva sua mensagem aqui..." class="form-control"
-                        rows="5" cols="80"></textarea>
+                    <textarea id="mensagem" placeholder="Escreva sua mensagem aqui..." class="form-control" rows="5" cols="80"></textarea>
                 </div>
             </form>
 
             <button class="btn btn-primary" onclick="document.getElementById('formAlerta').setAttribute('style', 'visibility: visible')"> Enviar </button>
 
             <div id="formAlerta" class="alert alert-success" role="alert" style="visibility: hidden">
-                <strong> Sucesso !</strong> Sua mensagem foi enviada com sucesso
-                ! Agora é só aguardar ...
+                <strong> Sucesso !</strong> Sua mensagem foi enviada com sucesso ! Agora é só aguardar ...
             </div>
 
         </div>
@@ -71,8 +68,8 @@
     </div>
 
     <div class="row footer">
-        <p class="pheader"> <a href="#"> RSS - Assine nosso feed </a> </p>
-        <p class="text-right pright"> contato: teste@teste.com <br/> Desenvolvido por maisa horta </p>
+        <p class="footer-header"> <a href="#"> RSS - Assine nosso feed </a> </p>
+        <p class="text-right"> contato: teste@teste.com <br/> Desenvolvido por maisa horta </p>
         <p class="text-center">Blog atualizado em: 20/06/2017 </p>
     </div>
 
